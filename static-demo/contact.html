@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – Sixtus Demo</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" type="image/png" href="assets/images/cannon.png">
+</head>
+<body>
+  <!-- Skip link for keyboard navigation -->
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- Top announcement banner -->
+  <div class="announcement">
+    Book a GDPR review – <a href="contact.html">schedule a call</a>
+  </div>
+
+  <!-- Site header with logo, primary navigation, and language toggle -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+  <img src="assets/images/cannon.png" alt="Sixtus logo" width="288" height="186" loading="lazy">
+        <span>Sixtus Compliance</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" data-nav-toggle>Menu</button>
+
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="nav-item">
+            <a href="compliance.html">Compliance</a>
+            <div class="dropdown">
+              <a href="compliance.html#audit">Audit preparation</a>
+              <a href="compliance.html#dpo">DPO as a Service</a>
+              <a href="compliance.html#gdpr">GDPR & privacy projects</a>
+              <a href="compliance.html#internal">Internal compliance & audit</a>
+              <a href="compliance.html#lexoforms-details">Lexoforms</a>
+              <a href="compliance.html#whistleblower-details">Whistleblower Software</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="technologies.html">Technologies</a>
+            <div class="dropdown">
+              <a href="technologies.html#scanner">Sixtus Scanner</a>
+              <a href="technologies.html#how">How it works</a>
+            </div>
+          </li>
+          <li><a href="about.html">About Sixtus</a></li>
+          <li><a href="team.html">Our team</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="lang-toggle" type="button" aria-label="Language switcher" aria-pressed="false" data-lang-toggle>EN / DA</button>
+    </div>
+
+    <div class="container mobile-panel" data-mobile-panel>
+      <a href="index.html">Home</a>
+      <a href="compliance.html">Compliance</a>
+      <div class="sub-links">
+        <a href="compliance.html#audit">Audit preparation</a>
+        <a href="compliance.html#dpo">DPO as a Service</a>
+        <a href="compliance.html#gdpr">GDPR & privacy projects</a>
+        <a href="compliance.html#internal">Internal compliance & audit</a>
+  <a href="compliance.html#lexoforms-details">Lexoforms</a>
+  <a href="compliance.html#whistleblower-details">Whistleblower Software</a>
+      </div>
+      <a href="technologies.html">Technologies</a>
+      <a href="about.html">About Sixtus</a>
+      <a href="team.html">Our team</a>
+      <a href="partners.html">Partners & memberships</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <!-- Main page content -->
+  <main id="content">
+    <!-- Breadcrumb trail -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <div class="container">
+        <a href="index.html">Home</a>
+        <span> / </span>
+  <span data-lang-en="Contact" data-lang-da="Kontakt">Contact</span>
+      </div>
+    </nav>
+
+  <!-- Contact details + form -->
+  <section class="section">
+      <div class="container split">
+        <div>
+          <h1 data-lang-en="Contact" data-lang-da="Kontakt">Contact</h1>
+          <p data-lang-en="Let’s align on your compliance priorities and the right technology mix." data-lang-da="Lad os afstemme jeres compliance-prioriteter og den rigtige teknologimix.">Let’s align on your compliance priorities and the right technology mix.</p>
+          <div class="card">
+            <p><strong data-lang-en="Address:" data-lang-da="Adresse:">Address:</strong> Store Regnegade 2, DK-1110 København K</p>
+            <p><strong data-lang-en="Phone:" data-lang-da="Telefon:">Phone:</strong> +45 30 65 43 35</p>
+            <p><strong data-lang-en="Email:" data-lang-da="Email:">Email:</strong> <a href="mailto:info@sixtus-compliance.dk">info@sixtus-compliance.dk</a></p>
+          </div>
+        </div>
+        <div>
+          <form class="form-grid" action="#" method="get" data-demo-form>
+            <label>
+              <span data-lang-en="Name" data-lang-da="Navn">Name</span>
+              <input type="text" name="name" placeholder="Your name" data-lang-en="Your name" data-lang-da="Dit navn" required>
+            </label>
+            <label>
+              <span data-lang-en="Email" data-lang-da="Email">Email</span>
+              <input type="email" name="email" placeholder="you@company.com" data-lang-en="you@company.com" data-lang-da="dig@virksomhed.dk" required>
+            </label>
+            <label>
+              <span data-lang-en="Company" data-lang-da="Virksomhed">Company</span>
+              <input type="text" name="company" placeholder="Company name" data-lang-en="Company name" data-lang-da="Virksomhedens navn">
+            </label>
+            <label>
+              <span data-lang-en="Message" data-lang-da="Besked">Message</span>
+              <textarea name="message" rows="4" placeholder="How can we help?" data-lang-en="How can we help?" data-lang-da="Hvordan kan vi hjælpe?" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit" data-lang-en="Send message" data-lang-da="Send besked">Send message</button>
+            <p class="form-status" data-form-status role="status" aria-live="polite" aria-atomic="true" data-lang-en="Thanks! Your message is ready for review. We will get back to you shortly." data-lang-da="Tak! Din besked er klar til gennemgang. Vi vender hurtigt tilbage.">Thanks! Your message is ready for review. We will get back to you shortly.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  <!-- Page-level CTA panel -->
+  <section class="section">
+      <div class="container">
+        <div class="cta-panel">
+          <div>
+            <h2 data-lang-en="Ready to strengthen your compliance posture?" data-lang-da="Klar til at styrke jeres compliance?">Ready to strengthen your compliance posture?</h2>
+            <p data-lang-en="Let’s build a pragmatic roadmap for GDPR, governance, and audit readiness." data-lang-da="Lad os bygge et pragmatisk roadmap for GDPR, governance og audit-readiness.">Let’s build a pragmatic roadmap for GDPR, governance, and audit readiness.</p>
+          </div>
+          <div class="button-group">
+            <a class="btn btn-secondary" href="contact.html" data-lang-en="Contact us" data-lang-da="Kontakt os">Contact us</a>
+            <a class="btn btn-accent" href="technologies.html" data-lang-en="See the scanner" data-lang-da="Se scanneren">See the scanner</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">
+          <img src="assets/images/cannon.png" alt="Sixtus logo" width="288" height="186" loading="lazy">
+          <span>Sixtus Compliance</span>
+        </a>
+        <p>Compliance and Technologies for regulated, growing businesses.</p>
+        <div class="badge">Software · Compliance · Governance · Consulting</div>
+      </div>
+      <div>
+        <h4>Find out more</h4>
+        <p><a href="compliance.html">Compliance</a></p>
+        <p><a href="technologies.html">Technologies</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="privacy-policy.html">Privacy Policy</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Store Regnegade 2<br>DK-1110 København K</p>
+        <p>+45 30 65 43 35<br>
+        <a href="mailto:info@sixtus-compliance.dk">info@sixtus-compliance.dk</a></p>
+    <p>CVR: 40649832 - 41483261</p>
+  <p><a href="https://www.linkedin.com/company/sixtus-group/posts/?feedView=all" target="_blank" rel="noopener">LinkedIn</a></p>
+      </div>
+      <div>
+        <h4>Insights</h4>
+        <div class="rss-placeholder">
+          <strong>RSS module</strong>
+          <p>Latest compliance updates and articles will appear here.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div class="footer-links">
+        <a href="index.html" data-lang-en="Home" data-lang-da="Hjem">Hjem</a>
+        <span>|</span>
+        <a href="privacy-policy.html" data-lang-en="Privacy Policy" data-lang-da="Privacy Policy">Privacy Policy</a>
+      </div>
+      <span>© 2026 Sixtus Compliance. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

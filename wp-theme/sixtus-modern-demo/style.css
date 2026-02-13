@@ -1,0 +1,13 @@
+/*
+Theme Name: Sixtus Modern Demo
+Theme URI: https://sixtus-compliance.dk/
+Author: Demo Redesign
+Description: Modern, performance-focused redesign demo theme for Sixtus Compliance.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sixtus-modern-demo
+*/
+
+@import url("assets/css/tokens.css");
+@import url("assets/css/theme.css");

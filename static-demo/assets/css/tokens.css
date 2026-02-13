@@ -1,0 +1,30 @@
+:root {
+  /* Brand tokens - replace with official Sixtus palette */
+  --color-primary: #571264;
+  --color-primary-700: #40104c;
+  --color-secondary: #54595f;
+  --color-accent: #61ce70;
+  --color-accent-600: #23a455;
+  --color-surface: #ffffff;
+  --color-surface-2: #ffffff;
+  --color-surface-3: #f5f5f5;
+  --color-text: #000000;
+  --color-muted: #7a7a7a;
+  --color-border: #e3e3e3;
+  --color-success: #23a455;
+
+  --shadow-soft: 0 10px 30px rgba(15, 42, 68, 0.08);
+  --shadow-card: 0 16px 40px rgba(15, 42, 68, 0.12);
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --font-body: "Roboto", "Helvetica", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --font-heading: "Helvetica", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+
+  --container-width: 1200px;
+  --section-padding: clamp(2.5rem, 4vw, 5rem);
+  --header-height: 84px;
+  --transition-fast: 180ms ease;
+}
